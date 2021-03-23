@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
   font-family: "PT Serif", serif;
-  font-size: .8rem;
   line-height: 1.5;
 }
 
@@ -9,111 +8,108 @@ html {
   box-sizing: inherit;
 }
 
-img {
-  width: 100%;
-}
-
-figcaption {
-  font-style: italic;
-  font-size: .8rem;
-  font-family: "PT Serif", serif;
-  text-align: center;
-}
-
-header {
+body {
+  margin: 0;
+  padding: 0;
   background-color: #c9b5ab;
-  max-width: 80em;
-  margin: 0 auto;
-  display: block;
-  padding: 1em;
-}
-
-ol {
-  list-style-type: none;
-  text-decoration: none;
-}
-
-nav a {
-  color: #8f2440;
-}
-
-nav a:link {
-  text-decoration: none;
-  color: #8f2440;
-}
-
-nav ol li {
-  font-family: "PT Sans", sans-serif;
-  color: #3f1622;
-}
-
-nav a:hover {
-  color: #3f1622;
-}
-
-h2 {
-  color: #3f1622;
 }
 
 h1 {
   font-family: "PT Sans", sans-serif;
-  color: #3f1622;
   font-size: 1.5rem;
+  color: #3f1622;
+}
+
+nav ol {
+  color: #8f2440;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.125rem;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
+
+img {
+  width: 85vw;
+}
+
+figcaption {
+  font-family: "PT Serif", serif;
+  font-size: 1rem;
+  text-align: center;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+figure b {
+  font-weight: lighter;
+}
+
+.intro {
+  font-family: "PT Serif", serif;
+  font-size: 1.125rem;
+  font-weight: bold;
+  padding-left: .5em;
 }
 
 strong {
   font-weight: normal;
 }
 
-blockquote p {
-  font-style: italic;
+main p {
   font-family: "PT Serif", serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  padding-left: .5em;
 }
 
-footer a:link {
-  color: #8f2440;
-  text-decoration: none;
+blockquote p {
+  font-family: "PT Serif", serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.5rem;
+  color: #3f1622;
+  font-weight: normal;
+  padding-left: .5em;
+}
+
+main ol {
+  list-style-type: lower-greek;
+}
+
+aside ul {
+  list-style-type: circle;
+}
+
+aside ul li {
+  font-size: .8rem;
+}
+
+dl {
+  padding-left: .5em;
+}
+
+dt {
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 footer {
-  font-family: "PT Serif", serif;
   font-size: .8rem;
-  max-width: 100em;
-  margin: 0 auto;
-  display: block;
-  background-color: #c9b5ab;
-  padding: 1em;
-}
-
-footer a {
-  color: #8f2440;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
-
-aside {
-  font-family: "PT Serif", serif;
-  font-size: .8rem;
-  max-width: 100em;
-  margin: 0 auto;
-  display: block;
-  background-color: #c9b5ab;
-  padding: 1em;
-}
-
-.intro {
-
-  font-family: "PT Serif", serif;
-  font-size: 1.125rem;
-}
-
-.main-content {
-  max-width: 80em;
-  margin: 0 auto;
-  display: block;
-  background-color: #c9b5ab;
-  padding: 1em;
 }
